@@ -156,7 +156,7 @@ void console_cursor(bool show) {
 }
 
 size_t inline MB2B(float size) {
-  return 1024 * 1024 * size;
+  return 1000 * 1000 * size;
 }
 
 bool exists(string s) {
